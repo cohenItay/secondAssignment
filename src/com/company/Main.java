@@ -155,6 +155,7 @@ public class Main {
                     if (candidatePriceForLevel < lowestLevelPrice)
                         lowestLevelPrice = candidatePriceForLevel;
                     else if (candidatePriceForLevel == lowestLevelPrice)
+                        //Incorrect!!!! - videos iv'e sent nofar explain why.
                         pfp.isMoreThanOneWayExists = true;
                 }
                 pfp.summedPricePerEachLevelArr[level] = lowestLevelPrice;
